@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.customFormItem .ant-form-item-label > label {
+    text-align: center;
+    display: block;
+}
+
+.ant-menu-item-selected  {
+    
+    color: black!important;
+    background-color: transparent!important;
+    font-weight: bold!important;
+}
+.ant-menu-item:hover{
+    color: white!important;
+    background-color: transparent!important;
+    font-weight: bold!important;
+}
+
+.ant-menu-item{
+    color: white!important;
+    border-radius: 0!important;
+    width: 100%!important;
+    margin-inline: 0 !important;
+    margin-block: 0!important;
+   
+}
+
+.ant-menu{
+    background-color: transparent!important;
+    border: none!important;
+    
+}
+.ant-drawer-header-title{
+    justify-content: end;
+}
+
+.ant-drawer .ant-drawer-header {
+    padding: 16px 8px!important;
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .card-animation {
+    animation: slideIn 0.5s forwards;
+    transition: all 0.2s;
+  }
+  .card-animation:hover {
+    scale: 1.06;
+  }
+
+  .card-animation2 {
+    animation: slideIn 0.5s forwards;
+    transition: all 0.2s;
+  }
+
+ 
